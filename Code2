@@ -1,0 +1,15 @@
+<section class="clearfix">
+  <div class="container webpage-container">
+       <div class="header_line col-md-12 no-padding">
+                     <h2 class="home_ttl upper clearfix home_back_img woo_ttl">Details Of Page</h2>
+       </div> 
+		<div class="pagedetails_list_part">
+		   
+		        <h3 class="home_ttl upper clearfix home_back_img woo_ttl"><?php echo get_post_meta($post->ID, "meta-box-text", true); ?></h3>
+				
+				<div class="content-section cont_bot"><?php echo get_post_meta($post->ID, "meta-box-desc", true); ?></div> 
+				
+		    
+        </div>
+  </div>
+</section> 
